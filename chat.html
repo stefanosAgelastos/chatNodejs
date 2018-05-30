@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat!</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.dev.js"></script>
+</head>
+
+<body class="w3-display-container">
+    <span id="logout" class="w3-display-topright material-icons w3-padding-small w3-animate-opacity" onclick="logout()"> close</span>
+    <div id="messages" class=" w3-content">
+
+    </div>
+    <div class="bottom w3-padding-small	w3-animate-opacity">
+        <div class="stef">
+            <textarea id="textArea" onkeypress="process(event, this)" oninput="onInput()" class="w3-input w3-border"></textarea>
+        </div>
+        <div class="staf">
+            <button class="w3-button w3-white w3-border " onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+
+    <script src="chatScript.js"></script>
+
+</body>
+
+</html>

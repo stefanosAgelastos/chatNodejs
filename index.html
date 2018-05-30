@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+                <div class="container">
+                    <input id="sUsername" type="text" placeholder="username" />
+                    <input id="sPassword" type="password" placeholder="password" />
+                    <input id="sEmail" type="email" placeholder="email address" />
+                    <button id="signUpButton">create</button>
+                    <p class="message">Already registered?
+                        <a href="#">Sign In</a>
+                    </p>
+                </div>
+            </form>
+            <form class="login-form">
+                <div class="container">
+                    <input id="lUsername" type="text" placeholder="username" />
+                    <input id="lPassword" type="password" placeholder="password" />
+                    <button id="logInButton">login</button>
+                    <p class="message">Not registered?
+                        <a href="#">Create an account</a>
+                    </p>
+                </div>
+            </form>
+            <img src="/img" onclick="dummy()">
+        </div>
+    </div>
+    <script src="loginScript.js"></script>
+</body>
