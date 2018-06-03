@@ -3,5 +3,5 @@ RUN mkdir /practice_docker
 ADD . /practice_docker
 WORKDIR /practice_docker
 RUN npm i
-EXPOSE 80, 3306
+EXPOSE 80 3306
 CMD ["npm", "start"]
