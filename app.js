@@ -206,7 +206,8 @@ io.on("message", data => {
 
 });
 
-server.listen("80", function (err) {
+/* port taken from docker environment variables */
+server.listen(process.env.SERVER_PORT, function (err) {
     if (err) {
         console.log("Error starting the server", err);
     }
