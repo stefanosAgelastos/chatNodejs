@@ -1,5 +1,4 @@
-#!/bin/sh
-chmod +x docker-entrypoint.sh;
+﻿#!/bin/sh
 printf "Starting Docker container in $NODE_ENV...\n"
 printf "Waiting for MySQL DB to come up...\n";
 until node ./provisioning/wait-for-mysql.js
