@@ -206,7 +206,7 @@ io.on("message", data => {
 
 });
 
-server.listen("3001", function (err) {
+server.listen( process.env.PORT || "3001", function (err) {
     if (err) {
         console.log("Error starting the server", err);
     }
