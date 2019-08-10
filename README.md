@@ -15,6 +15,7 @@ Exam project for third Semester **elective: Full-Stack web development with Node
  - [objection.js](https://vincit.github.io/objection.js/) object relational mapping for Node.js
  - ~~Docker compose containerization~~
  
+ 
 ## Getting Started
  
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -27,6 +28,7 @@ You need to have Node.js and NPM installed on your system. To check if you have 
 node -v
 node -v
 ```
+You also need to a local or remote SQL server up and running. To set up one (XAMPP) on your local machine click [here](https://www.apachefriends.org/download.html). Create a database and a user.
 
 ### Installing
 
@@ -42,8 +44,35 @@ Install dependencies
 ```
 npm i 
 ```
+Now you need to provide the endpoint of your database, database name, and user before starting the app. Go to `database_credentials\local_credentials.js` and copy paste the following lines of code:
 
-End with an example of getting some data out of the system or using it for a little demo
+```
+exports.host = "localhost";
+exports.database = "YOUR_DATABASE_NAME";
+exports.user = "YOUR_USER_NAME";
+
+/* exports.host = process.env.DB_HOST;
+exports.database = process.env.DB_NAME;
+exports.user = process.env.DB_USER;
+exports.password = process.env.DB_PASSWORD; */
+```
+The app is now ready to connect to the databse, but before running the app, you need run a few commands on your terminal. These commands will create and run a migration that will set up the tables of your database. The last command will seed the database with some data.
+
+```
+npm run create-migration
+npm run migrate
+npm run seed
+```
+
+You are ready to start the app, run
+```
+npm start
+```
+or run 
+```
+npm run start-dev
+```
+for development and hot reloading. The port is printed on the console.
 
 ## Running the tests
 
