@@ -6,6 +6,7 @@
 
 Exam project for third Semester **elective: Full-Stack web development with Node.js and jQuery** at KEA.
 ### Features
+- Chat room, where users post messages on a common wall.
 - System allows users to signup and login.
 - Persists encrypted password.
 - It makes use of JWT and expiring tokens for user sessions.
@@ -25,7 +26,8 @@ Exam project for third Semester **elective: Full-Stack web development with Node
 ## Getting Started
  
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-![Login-SignUp screen](https://raw.githubusercontent.com/stefanosAgelastos/chatNodejs/master/screenshots/login.png
+
+![Login-SignUp screen](https://raw.githubusercontent.com/stefanosAgelastos/chatNodejs/master/screenshots/login.png)
 ![Chat screen](https://raw.githubusercontent.com/stefanosAgelastos/chatNodejs/master/screenshots/chat.png)
 
 ### Prerequisites
