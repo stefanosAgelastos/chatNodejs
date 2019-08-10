@@ -6,6 +6,10 @@
 
 Exam project for third Semester **elective: Full-Stack web development with Node.js and jQuery** at KEA.
 
+![Login-SignUp screen](/screenshots/login.png)
+
+![Chat screen](/screenshots/chat.png)
+
 ## Built With
 
  - [Node.js](https://nodejs.org/en/) javascript Runtime
