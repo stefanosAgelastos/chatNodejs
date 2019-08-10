@@ -21,6 +21,7 @@ Exam project for third Semester **elective: Full-Stack web development with Node
  - [socket.io](https://socket.io) real-time bidirectional event-based communication
  - [Knex.js](http://knexjs.org/) SQL query builder
  - [objection.js](https://vincit.github.io/objection.js/) object relational mapping for Node.js 
+##
  
 ## Getting Started
  
@@ -29,7 +30,7 @@ These instructions will get you a copy of the project up and running on your loc
 ![Login-SignUp screen](https://raw.githubusercontent.com/stefanosAgelastos/chatNodejs/master/screenshots/login.png)
 ![Chat screen](https://raw.githubusercontent.com/stefanosAgelastos/chatNodejs/master/screenshots/chat.png)
 
-### Prerequisites
+### Prerequisites:
 
 You need to have Node.js and NPM installed on your system. To check if you have them installed run these commands in your terminal:
 
@@ -39,7 +40,7 @@ node -v
 ```
 You also need to a local or remote SQL server up and running. To set up one (XAMPP) on your local machine click [here](https://www.apachefriends.org/download.html). Create a database and a user.
 
-### Installing
+### Installing:
 
 Clone the repository
  
@@ -65,6 +66,7 @@ exports.database = process.env.DB_NAME;
 exports.user = process.env.DB_USER;
 exports.password = process.env.DB_PASSWORD; */
 ```
+
 The app is now ready to connect to the databse, but before running the app, you need run a few commands on your terminal. These commands will create and run a migration that will set up the tables of your database. The last command will seed the database with some data.
 
 ```
@@ -73,6 +75,7 @@ npm run migrate
 npm run seed
 ```
 
+### Run:
 You are ready to start the app, run
 ```
 npm start
