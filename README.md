@@ -5,6 +5,7 @@
 ## About the project
 
 Exam project for third Semester **elective: Full-Stack web development with Node.js and jQuery** at KEA.
+
 ### Features
 - Chat room, where users post messages on a common wall.
 - System allows users to signup and login.
@@ -19,9 +20,7 @@ Exam project for third Semester **elective: Full-Stack web development with Node
  - [Express](https://expressjs.com/) web framework
  - [socket.io](https://socket.io) real-time bidirectional event-based communication
  - [Knex.js](http://knexjs.org/) SQL query builder
- - [objection.js](https://vincit.github.io/objection.js/) object relational mapping for Node.js
- - ~~Docker compose containerization~~.
- 
+ - [objection.js](https://vincit.github.io/objection.js/) object relational mapping for Node.js 
  
 ## Getting Started
  
