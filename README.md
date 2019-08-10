@@ -6,9 +6,9 @@
 
 Exam project for third Semester **elective: Full-Stack web development with Node.js and jQuery** at KEA.
 
-![Login-SignUp screen](/screenshots/login.png)
+![Login-SignUp screen](https://raw.githubusercontent.com/stefanosAgelastos/chatNodejs/master/screenshots/login.png)
 
-![Chat screen](/screenshots/chat.png)
+![Chat screen](https://raw.githubusercontent.com/stefanosAgelastos/chatNodejs/master/screenshots/chat.png)
 
 ## Built With
 
