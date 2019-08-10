@@ -8,11 +8,11 @@ Exam project for third Semester **elective: Full-Stack web development with Node
 
 ## Built With
 
- - [Node.js](https://nodejs.org/en/) - javascript Runtime
- - [Express](https://expressjs.com/) - web framework
- - [socket.io](https://socket.io) - real-time bidirectional event-based communication
- - [Knex.js](http://knexjs.org/) - SQL query builder
- - [objection.js](https://vincit.github.io/objection.js/) - object relational mapping for Node.js
+ - [Node.js](https://nodejs.org/en/) javascript Runtime
+ - [Express](https://expressjs.com/) web framework
+ - [socket.io](https://socket.io) real-time bidirectional event-based communication
+ - [Knex.js](http://knexjs.org/) SQL query builder
+ - [objection.js](https://vincit.github.io/objection.js/) object relational mapping for Node.js
  - ~~Docker compose containerization~~
  
 ## Getting Started
