@@ -21,8 +21,7 @@ Exam project for third Semester **elective: Full-Stack web development with Node
  - [socket.io](https://socket.io) real-time bidirectional event-based communication
  - [Knex.js](http://knexjs.org/) SQL query builder
  - [objection.js](https://vincit.github.io/objection.js/) object relational mapping for Node.js 
-##
- 
+  
 ## Getting Started
  
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
