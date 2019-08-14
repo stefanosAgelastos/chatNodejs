@@ -3,8 +3,8 @@
 ### [Go to github repo](https://github.com/stefanosAgelastos/chatNodejs) or ~~[Open app](https://chat.stefworks.ml)~~
 ## About the project
 
-Exam project for third Semester **elective: Full-Stack web development with Node.js and jQuery** at KEA.
-By Stefanos Agelastos, June 2018.
+Exam project for third Semester elective: Full-Stack web development with Node.js and jQuery at KEA.
+By **Stefanos Agelastos, June 2018**.
 
 ### Features
 - Chat room, where users post messages on a common wall.
@@ -13,14 +13,14 @@ By Stefanos Agelastos, June 2018.
 - It makes use of JWT and expiring tokens for user sessions.
 - Persists message history.
 - Real-time messages using web-sockets.
-
+  
 ## Built With
-
- - [Node.js](https://nodejs.org/en/) javascript Runtime
- - [Express](https://expressjs.com/) web framework
- - [socket.io](https://socket.io) real-time bidirectional event-based communication
- - [Knex.js](http://knexjs.org/) SQL query builder
- - [objection.js](https://vincit.github.io/objection.js/) object relational mapping for Node.js.  
+  
+- [Node.js](https://nodejs.org/en/) javascript Runtime.  
+- [Express](https://expressjs.com/) web framework.  
+- [socket.io](https://socket.io) real-time bidirectional event-based communication.  
+- [Knex.js](http://knexjs.org/) SQL query builder. 
+- [objection.js](https://vincit.github.io/objection.js/) object relational mapping for Node.js.  
   
   
 ## Getting Started
