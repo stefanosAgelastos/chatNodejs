@@ -1,10 +1,10 @@
 # Simple Chat Webapp
 
-#### June, 2018
 ### [Go to github repo](https://github.com/stefanosAgelastos/chatNodejs) or ~~[Open app](https://chat.stefworks.ml)~~
 ## About the project
 
 Exam project for third Semester **elective: Full-Stack web development with Node.js and jQuery** at KEA.
+By Stefanos Agelastos, June 2018.
 
 ### Features
 - Chat room, where users post messages on a common wall.
