@@ -121,6 +121,7 @@ npm run seed
 <Panel id="6" heading="For Devs" secondaryHeading="You are ready to go" >
 
 ### Run: 
+
 You are ready to start the app, run
 ```
 npm start
