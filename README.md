@@ -2,10 +2,7 @@
 
 <HeaderTitle> 
 
-# Simple Chat Webapp 
-
-### [Go to github repo](https://github.com/stefanosAgelastos/chatNodejs) or ~~[Open app](https://chat.stefworks.ml)~~
-## About the project
+# Realtime Chat Web Application
 
 </HeaderTitle>
 
