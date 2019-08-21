@@ -1,9 +1,8 @@
 <MainGrid>
 
-<HeaderTitle> 
+<HeaderTitle>
   
-# Realtime Chat Web Application  
-  
+## Realtime Chat Web Application
 </HeaderTitle>
 
 <InfoGrid>
