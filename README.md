@@ -3,14 +3,9 @@
 <HeaderTitle>
   
 ## Realtime Chat Web Application
-<TitleAction>
+<TitleAction href="https://github.com/stefanosAgelastos/chatNodejs" label="Go to github repo" />
   
-  [Go to github repo](https://github.com/stefanosAgelastos/chatNodejs)
-</TitleAction>
-<TitleAction>
-  
-  ~~[Open app](https://chat.stefworks.ml)~~
-</TitleAction>
+<TitleAction href="https://chat.stefworks.ml" disabled label="Go to demo" />
 </HeaderTitle>
 
 <InfoGrid>
