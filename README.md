@@ -3,6 +3,14 @@
 <HeaderTitle>
   
 ## Realtime Chat Web Application
+<TitleAction>
+  
+  [Go to github repo](https://github.com/stefanosAgelastos/chatNodejs)
+</TitleAction>
+<TitleAction>
+  
+  ~~[Open app](https://chat.stefworks.ml)~~
+</TitleAction>
 </HeaderTitle>
 
 <InfoGrid>
