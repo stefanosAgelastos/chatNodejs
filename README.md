@@ -2,7 +2,7 @@
 
 <HeaderTitle>
   
-## Realtime Chat Web Application
+# Realtime Chat Web Application
 <TitleAction href="https://github.com/stefanosAgelastos/chatNodejs" label="Go to github repo" />
   
 <TitleAction href="https://chat.stefworks.ml" disabled label="Go to demo" />
